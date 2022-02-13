@@ -9,8 +9,8 @@ from mcipc.query import Client
 PlayerListPath = ""
 plugin_path = ""
 thumbnail = ""
-IP = "DEINE IP"
-PORT = "DEIN PORT"
+IP = "YOUR IP"
+PORT = "YOUR PORT"
 
 
 client = discord.Client()
