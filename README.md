@@ -8,6 +8,7 @@ This discord bot can get informations from a minecraft server
  
  Now the bot is finished
  
+ 
  The bot can give you information about:
  
  -how many players are online
