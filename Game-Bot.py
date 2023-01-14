@@ -348,23 +348,6 @@ async def dailybonus(ctx):
     print(data[turn])
     with open(punkte_file, "w") as f:
         json.dump(data, f)
-
-@client.command()
-async def mathgame(ctx):
-    await ctx.send("Du hast für diese Rechenaufgabe 5 Sekunden Zeit. Schreibe /ans und deine Lösung.")
-    sleep(5)    
     
-    faktor1 = random.randint(1,100)
-    faktor2 =random.radnint(1,100)
-    time = 5 
-
-    
-@client.command()
-async def mathgame(ctx):
-    await ctx.send("Du hast für diese Rechenaufgabe 5 Sekunden Zeit. Schreibe /ans und deine Lösung.")
-    sleep(5)    
-    
-    faktor1 = random.randint(1,100)
-    faktor2 =random.radnint(1,100)      
 
 client.run("TOKEN")
