@@ -16,7 +16,3 @@ This discord bot can get informations from a minecraft server
  -what is the server ping
  
  -who is online
-
- -listing the plugins which are used 
- 
- -listing the playtime of players
